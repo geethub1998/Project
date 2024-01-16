@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body{
+	background-image: url('login6.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	box-sizing: border-box;
+}
+.container{
+	width:50%;
+	background-color: rgba(0,0,0,0);
+	margin:5% auto;
+	padding:3%;	
+	font-size: 15px;
+	text-align: center;
+	color:white;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-top-right-radius: 15%;
+}
+.form-group{
+	margin-bottom: 20px;
+}
+button{
+	width:170px;
+	padding:5px;
+	background-color: orangered;
+	color:white;
+	cursor: pointer;
+	border:none;
+	transition: all 0.3s;
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 3px 3px 5px darkgray;
+	font-size: 22px;
+}
+button:hover{
+	background-color:	yellow;
+	box-shadow: 5px 5px 10px #bfbfbf;
+}
+h2{
+	padding-bottom: 30px;
+	font-size: 39px;
+	color:aqua;
+}
+.form-group,.form-group{
+	padding:5px;
+}
+.form-group label,.form-group label{
+	padding:5px;
+	font-size: 20px;
+	color: white;
+}
+.form-group input,.form-group input{
+	width:58%;
+	padding:0px;
+	font-size: 20px;
+}
